@@ -690,4 +690,4 @@ export const widgetConfigs = {
 	randomPosts: randomPostsConfig,
 } as const;
 
-// umamiConfig相关配置已移动至astro.config.mjs中,统计脚本请自行在Layout.astro文件的<head>中插入
+// umamiConfig相关配置已移动至astro.config.mjs中,统计脚本请自行在import SomeLayout from '../components/SomeLayout.astro';文件的<head>中插入
